@@ -36,7 +36,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: true,
+    enable: false,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
@@ -48,7 +48,7 @@ const CONFIG = {
     },
   },
   naverSearchAdvisor: {
-    enable: true,
+    enable: false,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
