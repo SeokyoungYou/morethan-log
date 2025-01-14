@@ -32,7 +32,7 @@ const PostDetail: React.FC<Props> = () => {
         </div>
         {data.type[0] === "Post" && (
           <>
-            <Footer />
+            <Footer category={category} />
             <CommentBox data={data} />
           </>
         )}
