@@ -36,7 +36,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
